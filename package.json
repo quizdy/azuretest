@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "start": "node .output/server/index.mjs"
+    },
+    "devDependencies": {
+        "nuxt": "3.0.0"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "mlly": "^1.1.0",
+        "path": "^0.12.7"
+    }
+}
